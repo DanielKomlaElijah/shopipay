@@ -82,7 +82,9 @@ if(isset($_SESSION['logged'])) {
                 
             	<ul id="main-menu">
                 	<li><a  id="current" href="index.php">Home</a></li>                
-                	<li><a href="#"><?php echo $log; ?></a></li>
+                	<li><a href="#">Product</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
             	</ul>
                
                 
@@ -257,15 +259,11 @@ if(isset($_SESSION['logged'])) {
             <ul>
                	<li><a href="">home</a></li>
                 <li>:</li>
-                <li><a href="">about</a></li>
+                <li><a href="">product</a></li>
                 <li>:</li>
-                <li><a href="">products</a></li>
+                <li><a href="">about us</a></li>
                 <li>:</li>
-                <li><a href="">services</a></li>
-                <li>:</li>
-                <li><a href="">news</a></li>
-                <li>:</li>
-                <li><a href="">contact</a></li>                    
+                <li><a href="">contact us</a></li>                   
             </ul>
             
             <div class="clear"></div>
